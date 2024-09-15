@@ -1,0 +1,18 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0;
+}
+.container{
+    width: 80%;
+    background-color: #23424A;
+    color: white;
+    margin: 0 auto;
+    padding: 5em;           /* 16 * 5 = 80px */
+    /* height: 200px; */
+}
+.child{
+    width: 50%;
+}

@@ -1,0 +1,40 @@
+body{
+    display: flex;
+}
+.card{
+   
+    margin: 2em;
+    max-width: 300px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    padding: 3em;
+
+}
+.card p{
+    opacity: 0.5;
+}
+.card img {
+    
+    width: 300px;
+    height: 300px;
+} 
+.card--light{
+    background-color: #eee;
+}
+  
+.card--dark{
+    background-color: #333;
+    color: white;
+}
+
+
+/* jaha pe bhi __body aye ga css me scss me nested is ko  &__body laga ke ker saktey hen 
+.card{
+   
+    margin: 2em;
+    max-width: 300px;
+    box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.4);
+    padding: 3em;
+    &__body{
+        color: red;
+    }
+} */

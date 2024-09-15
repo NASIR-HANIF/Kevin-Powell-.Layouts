@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+:root{
+    --clr-primary:#ee6352;
+    --clr-body : #333;
+    --clr-bg : #ddd
+}
+
+body{
+    font-family: sans-serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.125em;
+    line-height: 1.6;
+    color: var(--clr-body);
+    background: var(--clr-bg);
+}
+.content{
+    background: white;
+    padding: 3em;
+    box-shadow: 0 0 3em rgba(0,0,0,.15);
+    width: min(500px,70%);
+    width: 70%;
+    /* width: min(500px,70%);  jab secreen size 500px ho ya 500px se small secreen ho to ap ne secreen ka 70% width leni hey */   
+    /* width: 70%;
+    max-width: 500px; ap ka size zeada se zeada 500px rahey ga */
+
+    /* width: max(500px , 70%); 500px size rahey ga ager secreen size bearh gaya to secreen size ka 70% lena hey */
+  
+
+
+    /* width: min(400px + 20%, 1200px);
+    width: 70%;   small 400 or zeada se zeada 20% bharha dena hey */
+}
+.title{
+    margin: 0 0 0.5em;
+    font-weight: 900;
+    color: var(--clr-primary);
+    /* font-size: clamp(2rem, 5vw, 5rem); */
+}

@@ -1,0 +1,48 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-size: 1.3rem;
+    font-family: "Roboto", sans-serif;
+}
+
+  
+.parent{
+    background-color: #23424A;
+    padding: 100px 0;
+     color: white;
+}
+.child{
+    width: 80%;
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+.content{
+    width: 60%;
+   
+}
+h1{
+    font-size: 3rem; 
+   
+}
+p {
+    margin: 3em 0;
+   
+}
+ .btn {
+    display: inline-block;
+    color: #23424A;
+    background-color: #38CFD9;
+    padding: 0.75em 2em;
+    border-radius: 100px;
+    text-decoration: none;
+    text-transform: uppercase;
+   
+} 
+.btn:hover,.btn:focus{
+    opacity: 0.75;
+}
